@@ -3,7 +3,7 @@ title: "Office - Projetos"
 #subtitle: "⚔<br/>with xaringan"
 #author: "Gabriel Lopes Rubinho - RA 125009 <br> Lorival Coelho Junior - RA 124105"
 institute: "Estats Consultoria"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "24/11/2023"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -11,14 +11,15 @@ output:
      highlightStyle: github
     highlightLines: true
     countIncrementalSlides: false
+
 ---
 
 ``` {r xaringan-logo, echo = FALSE, warning = FALSE} 
 library(xaringanExtra)
 use_logo(
   "estats.png",
-  width = "125px",
-  height = "135px",
+  width = "0px",
+  height = "0px",
   position = css_position(top = "0.5em", right = "1em"),
   link_url = NULL,
   exclude_class = c("title-slide", "inverse", "hide_logo")
@@ -40,48 +41,16 @@ options(htmltools.dir.version = FALSE)
 ```
 
 
-# Sobre o curso de Power BI.. 
+# A documentação do site
 
 <center>
 <br>
-<img src="power-bi.jpg" width = "350"/>
+<img src="material.PNG" width = "550"/>
 </center>
 
 ---
 
-# Formação dos novos membros
-
-<center>
-.pull-left[
-<img src="rr.png" width = "300" height = "300" />
-]
-
-.pull-right[
-<img src = "octocat.png" width = "300" height = "300"/>
-]
-</center>
-
----
-
-# Voltando ao projeto do site
-
-<center>
-.pull-left[
-<img src="pt1.JPG" width = "400" height = "300" />
-]
-
-.pull-right[
-<img src = "pt2.JPG" width = "400" height = "300"/>
-]
-</center>
-
-
-
-
-
----
-
-# Manual de Sobrevivência
+# Manual de sobrevivência
 
 <center>
 <img src= "manual_sobrevivencia.PNG" width = "400" height = "350"/>
@@ -89,21 +58,18 @@ options(htmltools.dir.version = FALSE)
 
 ---
 
+# Um possível projeto futuro
 
-# Atividades Específicas
-
-* Pimpão: Manual de Sobrevivência
-<br>
-<br>
-<br>
---
-
-* Matheus e Lorival: Local de pastas no site
+<center>
+<img src= "hex-shiny.png" width = "400" height = "400"/>
+</center>
 
 ---
 
-
-
+```{r, echo = FALSE}
+knitr::include_app("https://yihui.shinyapps.io/miniUI/",
+                   height = "600px")
+```
 
 
 
