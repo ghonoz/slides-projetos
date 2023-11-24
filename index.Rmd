@@ -67,7 +67,7 @@ options(htmltools.dir.version = FALSE)
 ---
 
 ```{r, echo = FALSE}
-knitr::include_app("https://yihui.shinyapps.io/miniUI/",
+knitr::include_app("https://connect.appsilon.com/rhino-fda-pilot",
                    height = "600px")
 ```
 
