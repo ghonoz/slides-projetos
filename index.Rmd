@@ -41,11 +41,11 @@ options(htmltools.dir.version = FALSE)
 ```
 
 
-# A documentação do site
+# Próximo projeto
 
 <center>
 <br>
-<img src="material.PNG" width = "550"/>
+<img src="rr.png" width = "450"/>
 </center>
 
 ---
@@ -58,18 +58,6 @@ options(htmltools.dir.version = FALSE)
 
 ---
 
-# Um possível projeto futuro
-
-<center>
-<img src= "hex-shiny.png" width = "400" height = "400"/>
-</center>
-
----
-
-```{r, echo = FALSE}
-knitr::include_app("https://connect.appsilon.com/rhino-fda-pilot",
-                   height = "600px")
-```
 
 
 
